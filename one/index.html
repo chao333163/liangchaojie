@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <table id="table">
+        <thead>
+            <tr>
+                <th>名称</th>
+                <th>单价</th>
+                <th>数量</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody id="list">
+            <tr>
+                <th>葡萄酒</th>
+                <th>58</th>
+                <th>1</th>
+                <th><button id="del">删除</button></th>
+            </tr>
+        </tbody>
+    </table>
+    <div id="box">
+        <div id="title">警告</div>
+        <div id="content">
+            <p>是否删除本商品</p>
+            <button id="sure">确认</button>
+            <button id="negative">否</button>
+        </div>
+    </div>
+    <div id="filter"></div>
+    <script src="ajax.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
